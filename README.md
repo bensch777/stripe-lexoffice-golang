@@ -17,7 +17,7 @@ var enddate = "2023-01-02T23:59:59"
 ```
 4. Terminal öffnen und die main.go ausführen.
 ```bash
-go run .\\main.go
+go run .\main.go
 ```
 
-**Hinweis:** Die Rechnungen werden gleichzeitig in das Verzeichnis /invoices/2023/ heruntergeladen. Rechnungen, die sich in diesem Verzeichnis befinden, werden nicht erneut heruntergeladen und somit auch nicht erneut an lexoffice übergeben.
+**Hinweis:** Die Rechnungen werden gleichzeitig in das Verzeichnis **/invoices/2023/** heruntergeladen. Rechnungen, die sich in diesem Verzeichnis befinden, werden nicht erneut heruntergeladen und somit auch nicht erneut an lexoffice übergeben.
