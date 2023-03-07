@@ -21,3 +21,6 @@ go run .\main.go
 ```
 
 **Hinweis:** Die Rechnungen werden gleichzeitig in das Verzeichnis **/invoices/2023/** heruntergeladen. Rechnungen, die sich in diesem Verzeichnis befinden, werden nicht erneut heruntergeladen und somit auch nicht erneut an lexoffice übergeben.
+
+# Beispiel in Lexoffice
+![Lexoffice](src/lexoffice.jpg)
