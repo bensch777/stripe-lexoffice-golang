@@ -6,7 +6,7 @@ In Lexoffice erscheint die PDF-Rechnung als Einnahmebeleg unter dem Sammelkunden
 
 # Einrichtung
 
-1. Stripe: [Eingeschränkten API-Schlüssel](https://dashboard.stripe.com/apikeys/create) erstellen.
+1. Stripe: [Eingeschränkten API-Schlüssel](https://dashboard.stripe.com/apikeys/create) erstellen. Es wird nur die Berechtigung "Rechnung lesen" benötigt.
 2. lexoffice: [API-Schlüssel](https://app.lexoffice.de/addons/public-api) erstellen.
 3. API-Schlüssel in der main.go hinterlegen und den Zeitraum für die Exporte anpassen.
 ```golang
